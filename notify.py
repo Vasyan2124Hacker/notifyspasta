@@ -45,7 +45,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowTitle.BorderColor3 = Color3.fromRGB(27, 42, 53)
     WindowTitle.BorderSizePixel = 0
     WindowTitle.Position = UDim2.new(0, 8, 0, 2)
-    WindowTitle.Size = UDim2.new(0, 222, 0, 22)
+    WindowTitle.Size = UDim2.new(0, 222, 0, 15)
     WindowTitle.ZIndex = 4
     WindowTitle.Font = Enum.Font.GothamSemibold
     WindowTitle.Text = nofdebug.Title
