@@ -27,7 +27,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     Window.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
     Window.BorderSizePixel = 0
     Window.Position = UDim2.new(0, 5, 0, 5)
-    Window.Size = UDim2.new(0, 230, 0, 50)
+    Window.Size = UDim2.new(0, 230, 0, 80)
     Window.ZIndex = 2
     
     Outline_A.Name = "Outline_A"
@@ -44,8 +44,8 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowTitle.BackgroundTransparency = 1.000
     WindowTitle.BorderColor3 = Color3.fromRGB(27, 42, 53)
     WindowTitle.BorderSizePixel = 0
-    WindowTitle.Position = UDim2.new(0, 4, 0, 2)
-    WindowTitle.Size = UDim2.new(0, 222, 0, 15)
+    WindowTitle.Position = UDim2.new(0, 15, 0, 2)
+    WindowTitle.Size = UDim2.new(0, 222, 0, 22)
     WindowTitle.ZIndex = 4
     WindowTitle.Font = Enum.Font.GothamSemibold
     WindowTitle.Text = nofdebug.Title
@@ -59,7 +59,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowDescription.BackgroundTransparency = 1.000
     WindowDescription.BorderColor3 = Color3.fromRGB(27, 42, 53)
     WindowDescription.BorderSizePixel = 0
-    WindowDescription.Position = UDim2.new(0, 8, 0, 20)
+    WindowDescription.Position = UDim2.new(0, 8, 0, 34)
     WindowDescription.Size = UDim2.new(0, 216, 0, 40)
     WindowDescription.ZIndex = 4
     WindowDescription.Font = Enum.Font.GothamSemibold
